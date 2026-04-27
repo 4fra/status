@@ -23,29 +23,8 @@ sites:
       - 404
   - name: Codex LB
     url: https://codex-lb.404fra.pl
-  - name: Nullclaw
-    url: https://nullclaw.404fra.pl
-    __dangerous__insecure: true
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 202
-      - 203
-      - 204
-      - 205
-      - 206
-      - 300
-      - 301
-      - 302
-      - 303
-      - 304
-      - 307
-      - 308
-      - 404
   - name: OpenTrashMail
     url: https://mail.plutomierz.ovh
-  - name: OpenTTD Server
-    url: https://openttdserver.404fra.pl
   - name: PocketBase
     url: https://pb.404fra.pl
     expectedStatusCodes:
