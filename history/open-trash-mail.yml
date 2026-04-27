@@ -1,7 +1,7 @@
-url: https://mail.plutomierz.ovh
+url: https://mail.plutomierz.ovh/api/status
 status: up
 code: 200
-responseTime: 691
-lastUpdated: 2026-04-27T10:33:25.655Z
+responseTime: 718
+lastUpdated: 2026-04-27T10:38:19.779Z
 startTime: 2026-04-27T10:23:48.580Z
 generator: Upptime <https://github.com/upptime/upptime>
