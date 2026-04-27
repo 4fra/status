@@ -18,23 +18,10 @@ sites:
     expectedStatusCodes:
       - 200
   - name: PocketBase
-    url: https://pb.404fra.pl
+    url: https://pb.404fra.pl/api/health
+    __dangerous__body_down_if_text_missing: "API is healthy."
     expectedStatusCodes:
       - 200
-      - 201
-      - 202
-      - 203
-      - 204
-      - 205
-      - 206
-      - 300
-      - 301
-      - 302
-      - 303
-      - 304
-      - 307
-      - 308
-      - 404
   - name: RR Staging
     url: https://rr-staging.404fra.pl
     expectedStatusCodes:
