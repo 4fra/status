@@ -9,9 +9,14 @@ sites:
     expectedStatusCodes:
       - 200
   - name: Codex LB
-    url: https://codex-lb.404fra.pl
+    url: https://codex-lb.404fra.pl/health
+    __dangerous__body_down_if_text_missing: '{"status":"ok"}'
+    expectedStatusCodes:
+      - 200
   - name: OpenTrashMail
-    url: https://mail.plutomierz.ovh
+    url: https://mail.plutomierz.ovh/api/status
+    expectedStatusCodes:
+      - 200
   - name: PocketBase
     url: https://pb.404fra.pl
     expectedStatusCodes:
