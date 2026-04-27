@@ -4,23 +4,10 @@ user-agent: 4fra
 
 sites:
   - name: Allegro
-    url: https://allegro.404fra.pl
+    url: https://allegro.404fra.pl/status
+    __dangerous__body_down_if_text_missing: '{"status":"ok"}'
     expectedStatusCodes:
       - 200
-      - 201
-      - 202
-      - 203
-      - 204
-      - 205
-      - 206
-      - 300
-      - 301
-      - 302
-      - 303
-      - 304
-      - 307
-      - 308
-      - 404
   - name: Codex LB
     url: https://codex-lb.404fra.pl
   - name: OpenTrashMail
